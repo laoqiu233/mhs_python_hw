@@ -1,1 +1,3 @@
 .ruff_cache
+hw_2/dist
+__pycache__
