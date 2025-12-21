@@ -1,0 +1,54 @@
+Matrix A:
++---+---+
+| 1 | 0 |
++---+---+
+| 0 | 0 |
++---+---+
+Matrix B:
++---+---+
+| 1 | 2 |
++---+---+
+| 3 | 4 |
++---+---+
+Matrix C:
++---+---+
+| 0 | 1 |
++---+---+
+| 0 | 0 |
++---+---+
+Matrix D:
++---+---+
+| 1 | 2 |
++---+---+
+| 3 | 4 |
++---+---+
+Matrix A and C equality: False
+Matrix B and D equality: True
+Matrix A and C hash values 97 and 97
+Matrix A and B matmul result:
++-----+-----+
+| 1.0 | 2.0 |
++-----+-----+
+| 0.0 | 0.0 |
++-----+-----+
+Matrix C and D matmul result:
++-----+-----+
+| 3.0 | 4.0 |
++-----+-----+
+| 0.0 | 0.0 |
++-----+-----+
+ab == cd: False
+Now using cached version:
+Cached matrix A and B matmul result:
++-----+-----+
+| 1.0 | 2.0 |
++-----+-----+
+| 0.0 | 0.0 |
++-----+-----+
+Cached matrix C and D matmul result:
++-----+-----+
+| 1.0 | 2.0 |
++-----+-----+
+| 0.0 | 0.0 |
++-----+-----+
+cached_ab == cached_cd: True

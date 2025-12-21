@@ -1,8 +1,9 @@
 # Во вложенном пакете, чтоб не было подозрения что локально импортнул библиотеку
-from dmitri_latex.latex_lib import generate_image, generate_table, create_document
-from pdflatex import PDFLaTeX
-from typing import TextIO
 import sys
+from typing import TextIO
+
+from dmitri_latex.latex_lib import create_document, generate_image, generate_table
+from pdflatex import PDFLaTeX
 
 
 def generate_doc_and_write(io: TextIO):
@@ -13,7 +14,7 @@ def generate_doc_and_write(io: TextIO):
         [3, "Python", "no comment"],
     ]
 
-    my_image = "/artifacts/image.jpg" # Path in docker
+    my_image = "/artifacts/image.jpg"  # Path in docker
 
     doc = create_document(
         "\\section{Моя картинка}",
@@ -29,7 +30,7 @@ def render_pdf(in_file: str, out_file: str):
     pdfl = PDFLaTeX.from_texfile(in_file)
     pdf, _, _ = pdfl.create_pdf()
 
-    with open(out_file, 'wb') as out:
+    with open(out_file, "wb") as out:
         out.write(pdf)
 
 

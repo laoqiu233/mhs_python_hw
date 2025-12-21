@@ -1,0 +1,8 @@
+Hash of Matrix A: 97
+Hash of Matrix B: 106
+Hash of Matrix C: 97
+Hash of Matrix D: 106
+Hash of Matrix AB (non-cached): 99
+Hash of Matrix CD (non-cached): 103
+Hash of Matrix AB (cached): 99
+Hash of Matrix CD (cached): 99
