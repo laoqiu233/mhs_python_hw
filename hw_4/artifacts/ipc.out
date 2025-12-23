@@ -1,0 +1,17 @@
+> Hello!
+[2025-12-24 01:03:37.513628] Main process read Hello!
+[2025-12-24 01:03:37.514254] Lower case worker received Hello!
+[2025-12-24 01:03:37.514473] Encode worker received hello!
+[2025-12-24 01:03:37.515159] Main process received uryyb!
+> Goodbye!
+[2025-12-24 01:03:39.088397] Main process read Goodbye!
+[2025-12-24 01:03:42.519573] Lower case worker received Goodbye!
+[2025-12-24 01:03:42.520077] Encode worker received goodbye!
+[2025-12-24 01:03:42.520574] Main process received tbbqolr!
+> Bye!
+[2025-12-24 01:03:44.356589] Main process read Bye!
+[2025-12-24 01:03:47.523688] Lower case worker received Bye!
+[2025-12-24 01:03:47.524126] Encode worker received bye!
+[2025-12-24 01:03:47.524521] Main process received olr!
+> ^D
+Terminate is set
